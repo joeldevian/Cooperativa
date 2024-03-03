@@ -30,7 +30,7 @@
             ¡Bienvenido a un espacio diseñado para tu crecimiento y contribución!</p>
         </section>
         <section>
-            <a href="./html/login.html" target="_blank" class="main__button">Iniciar</a>
+            <a href="./html/inisiarSesion.php" target="_blank" class="main__button">Iniciar</a>
         </section>
         </section>
     </main>

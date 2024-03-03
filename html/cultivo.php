@@ -36,11 +36,14 @@
             <span id="errorAreaCultivo" class="mensaje-error"></span>
         </div>
 
-        <div class="boton-registrar">
-            <button type="button" onclick="validarCultivo()">Registrar Cultivo</button>
+        <div >
+            <button type="submit" name="registrarcultivo">Registrar Cultivo</button>
         </div>
     </form>
   </div>
 <script src="../js/validacionCultivo.js"></script>
+<?php
+    include("../php/registrarCultivo.php")
+?>
 </body>
 </html>

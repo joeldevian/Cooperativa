@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de Proveedores - Cooperativa Frutos del Ande</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/proveedor.css">
 </head>
 <body>
+    <a href="../html/main.php" class="enlace-regreso"><i class="fas fa-arrow-left"></i> Regresar</a>
 
   <div class="registro-proveedores">
     <h1>Registro de Proveedores</h1>
@@ -54,11 +56,14 @@
             <span id="errorFechaFinalizacion" class="mensaje-error" ></span>
         </div>
 
-        <div class="boton-registrar">
-            <button type="button" onclick="validarProveedor()">Registrar Proveedor</button>
+        <div >
+            <button type="submit" name ="registrarproveedor">Registrar Proveedor</button>
         </div>
     </form>
   </div>
 <script src="../js/validacionProveedor.js"></script>
+<?php 
+    include("../php/registrarProveedor.php");
+  ?>
 </body>
 </html>

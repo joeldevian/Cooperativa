@@ -23,11 +23,13 @@ function validarCultivo(){
     }
 
     // Validar temporada
-    if (temporada !== "verano" && temporada !== "invierno" && temporada !== "otoño" && temporada !== "primavera") {
+    /*
+    if (temporada !== "Verano" && temporada !== "Invierno" && temporada !== "Otoño" && temporada !== "Primavera") {
         errorTemporada.innerText = 'La temporada no es válida';
         return false;
     }
-
+    */
+   
     // Validar Cantidad de produccion
     if (isNaN(cantidadProduccion) || cantidadProduccion < 0) {
         errorCantidadProduccion.innerText = 'Ingresa una cantidad de producción válida';

@@ -26,49 +26,49 @@
             <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/cliente.html">
+                <a href="../html/cliente.php">
                     <i class='bx bx-user'></i>
                     <span class="links_name">Cliente</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/producto.html">
+                <a href="../html/producto.php">
                     <i class='bx bx-box'></i>
                     <span class="links_name">Producto</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/pedido.html">
+                <a href="../html/pedido.php">
                     <i class='bx bx-cart-alt' ></i>
                     <span class="links_name">Pedidos</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/certificacion.html">
+                <a href="../html/certificacion.php">
                     <i class='bx bx-detail'></i>
                     <span class="links_name">Certificación</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/cultivo.html">
+                <a href="../html/cultivo.php">
                     <i class='bx bx-leaf' ></i>
                     <span class="links_name">Cultivo</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/inventario.html">
+                <a href="../html/inventario.php">
                     <i class='bx bx-package'></i>
                     <span class="links_name">Inventario</span>
                 </a>
                 <!-- <span class="tooltip">Dashboard</span> -->
             </li>
             <li>
-                <a href="../html/proveedor.html">
+                <a href="../html/proveedor.php">
                     <i class='bx bx-user-plus'></i>
                     <span class="links_name">Proveedor</span>
                 </a>

@@ -35,10 +35,11 @@ function validarPedido(){
     }
 
     // Validar los detalles del pedido
-    if (!/^[a-zA-Z\s]+$/.test(detallesPedido)) {
-        errorDetallePedido.innerText = 'En este campo solo puede proporcionar letras y espacios';
+    if (!/^[a-zA-Z0-9\s]+$/.test(detallesPedido)) {
+        errorDetallePedido.innerText = 'En este campo solo puede proporcionar letras, números y espacios';
         return false;
     }
+
 
     // Validar estado de cultivo
     if (estado !== "pendiente" && estado !== "En Proceso" && estado !== "Entregado" ) {

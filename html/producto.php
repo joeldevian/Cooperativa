@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <a href="../html/main.html" class="enlace-regreso"><i class="fas fa-arrow-left"></i> Regresar</a>
+    <a href="../html/main.php" class="enlace-regreso"><i class="fas fa-arrow-left"></i> Regresar</a>
     
   <div class="registro-productos">
     <h1>Registro de Productos</h1>
@@ -39,11 +39,14 @@
             <span  id="errorDescripcion" class="mensaje-error"></span>
         </div>
 
-        <div class="boton-registrar">
-            <button type="button" onclick="validarProducto()">Registrar Producto</button>
+        <div >
+            <button type="submit" name="registrarproducto">Registrar Producto</button>
         </div>
     </form>
   </div>
 <script src="../js/validacionProducto.js"></script>
+<?php 
+    include("../php/registrarProducto.php");
+  ?>
 </body>
 </html>

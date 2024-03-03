@@ -53,6 +53,7 @@ function validarProveedor(){
     }
 
     //validar terminos de contrato
+    /*
     if (!/^[a-zA-Z\s]+$/.test(terminosContrato)) {
         errorTerminosContrato.innerText = 'Los términos del contrato solo puede contener letras y espacios';
         return false;
@@ -75,4 +76,6 @@ function validarProveedor(){
    }
     // Si la validación pasa, podrías enviar los datos al servidor o realizar otras acciones
     return true;
+    */
 }
+

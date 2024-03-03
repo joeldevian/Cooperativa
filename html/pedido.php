@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <a href="../html/main.html" class="enlace-regreso"><i class="fas fa-arrow-left"></i> Regresar</a>
+    <a href="../html/main.php" class="enlace-regreso"><i class="fas fa-arrow-left"></i> Regresar</a>
 
   <div class="registro-pedidos">
     <h1>Registro de Pedidos</h1>
@@ -43,11 +43,14 @@
             <span id="errorEstadoPedido" class="mensaje-error"></span>
         </div>
 
-        <div class="boton-registrar">
-            <button type="button" onclick="validarPedido()">Registrar Pedido</button>
+        <div >
+            <button type="submit" name="registrarpedido">Registrar Pedido</button>
         </div>
     </form>
   </div>
 <script src="../js/validacionPedido.js"></script>
+<?php 
+    include("../php/registrarPedido.php");
+  ?>
 </body>
 </html>

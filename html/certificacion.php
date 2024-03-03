@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../css/certeficacion.css">
     <title>Certificación - Cooperativa Frutos del Ande</title>
 </head>
 <body>
+
+    <a href="../html/main.php" class="enlace-regreso"><i class="fas fa-arrow-left"></i> Regresar</a>
 
   <div class="certificacion">
     <h1>Certificación</h1>
@@ -49,11 +52,14 @@
             <span id="errorNombreProveedor" class="mensaje-error"></span>
         </div>
         
-        <div class="boton-generar-certificado">
-            <button type="button" onclick="validarCertificacion()">Generar Certificado</button>
+        <div >
+            <button type="submit" name="generarcertificado">Generar Certificado</button>
         </div>
     </form>
   </div>
 <script src="../js/validacionCertificacion.js"></script>
+<?php 
+    include("../php/registrarCertificado.php");
+  ?>
 </body>
 </html>

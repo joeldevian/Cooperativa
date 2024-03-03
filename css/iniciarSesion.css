@@ -1,0 +1,77 @@
+/*========================================================================*/
+/*                                 Login                                  */
+/*========================================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Merriweather', 'Teko', serif;
+    font-size: 62.5%;
+}
+
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.login-form {
+    width: 40%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9a825;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #b3781b;
+}
+
+.login-form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-image {
+    background-image: url(../assets/img/login_img.jpg);
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.error {
+    position: absolute;
+    top: 50px;
+    color: #E02D00;
+    font-size: 12px;
+    margin-left: calc(10%);
+}
